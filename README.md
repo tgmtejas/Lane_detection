@@ -9,7 +9,6 @@ y_train = [] </br>
 with h5py.File(os.path.join(os.getcwd(),'Lane_data2.h5'), 'r') as f: </br>
 &nbsp; &nbsp;  x_train = f['RGB'][()] </br>
 &nbsp; &nbsp;    y_train = f['Segmented'][()] </br>
-#Convert both lists to Numpy</br>
     
 x_train --> RGB images </br>
 y_train --> Segmented images </br>
