@@ -185,12 +185,13 @@ model_new = Model(ip, x5)
 print(model_new.summary())
 
 model_new.compile(optimizer='Adam', loss = 'mse', metrics = ['mae', 'mse'])
-history = model_new.fit(x_train, y_train, epochs=1, batch_size=4, validation_split=0.1)
+history = model_new.fit(x_train, y_train, epochs=1, batch_size=64, validation_split=0.1)
 
 model_new.save('Lane_MOdel_U_GCN_version1.h5')
 
 
 import matplotlib.pyplot as plt
+plt.switch_backend('agg')
 plt.rcParams["figure.figsize"] = (15,10)
 plt.rcParams.update({'font.size': 22})
 plt.plot(history.history['loss'])
@@ -198,10 +199,10 @@ plt.plot(history.history['val_loss'])
 plt.title('model loss')
 plt.ylabel('loss')
 plt.xlabel('epoch')
-plt.legend(['train', 'test'], loc='upper left')
+plt.legend(['train', 'validation'], loc='upper left')
 plt.savefig('Errorvs Epoch.png')
 
 
-test_eval = model_new.evaluate(x_test, y_test, batch_size=2, verbose=1, sample_weight=None)
+test_eval = model_new.evaluate(x_test, y_test, batch_size=24, verbose=1, sample_weight=None)
 
 print(test_eval)
