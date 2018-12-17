@@ -74,11 +74,11 @@ Epoch 36/40
 Epoch 37/40
 2430/2430 [==============================] - 49s 20ms/step - loss: 56.8936 - mean_absolute_error: 1.9780 - mean_squared_error: 56.8936 - val_loss: 70.2891 - val_mean_absolute_error: 2.0154 - val_mean_squared_error: 70.2891
 Epoch 38/40
-2430/2430 [==============================] - 49s 20ms/step - loss: 48.2687 - mean_absolute_error: 1.8881 - mean_squared_error: 48.2687 - val_loss: 71.3643 - val_mean_absolute_error: 2.4301 - val_mean_squared_error: 71.3643
+2430/2430 [==============================] - 49s 20ms/step - loss: 48.2687 - mean_absolute_error: 1.8881 - mean_squared_error: 48.2687 - val_loss: 61.4360 - val_mean_absolute_error: 1.4301 - val_mean_squared_error: 61.4360
 Epoch 39/40
-2430/2430 [==============================] - 49s 20ms/step - loss: 45.1892 - mean_absolute_error: 1.8041 - mean_squared_error: 45.1892 - val_loss: 58.5505 - val_mean_absolute_error: 1.9631 - val_mean_squared_error: 58.5505
+2430/2430 [==============================] - 49s 20ms/step - loss: 45.1892 - mean_absolute_error: 1.8041 - mean_squared_error: 45.1892 - val_loss: 76.5505 - val_mean_absolute_error: 1.9631 - val_mean_squared_error: 76.5505
 Epoch 40/40
-2430/2430 [==============================] - 49s 20ms/step - loss: 42.7771 - mean_absolute_error: 1.7011 - mean_squared_error: 42.7771 - val_loss: 61.4360 - val_mean_absolute_error: 2.2499 - val_mean_squared_error: 61.4360
+2430/2430 [==============================] - 49s 20ms/step - loss: 42.7771 - mean_absolute_error: 1.7011 - mean_squared_error: 42.7771 - val_loss: 92.4369 - val_mean_absolute_error: 2.2499 - val_mean_squared_error: 92.4369
 
 Test Results:
 300/300 [==============================] - 5s 16ms/step
