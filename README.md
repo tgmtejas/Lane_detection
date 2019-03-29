@@ -6,7 +6,7 @@ Dataset :</br>
 Data set has been simulated from Carla simulator. There are 1000 images with different envirinments like sunlight, rainy and overcast weather. </br>
 
 Data Pre-processing :</br>
-Label images are encoded images with 13 different classes as per Carla document. I was interested in only lane class, so lane class pixels are kept as zero and all other classes set to 1. </br>
+Label images are encoded images with 13 different classes as per Carla document. I was interested in only lane class, so lane class pixels are kept as 1 and all other classes set to 0. </br>
 
 Data Augmentation :</br>
 1000 images are augmented to 3000 images using Keras's ImageDataGenerator function with help of rotation and scaling. </br>
