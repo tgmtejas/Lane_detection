@@ -3,7 +3,7 @@ Goal : </br>
 The overall goal of the project is to generate segmented image for the drivable surface of the road.
 
 Dataset :</br>
-Data set has been simulated from Carla simulator. There are 1000 images with different envirinments like sunlight, rainy and overcast weather. Dataset is also avaialble on Kaggle platform. https://www.kaggle.com/kumaresanmanickavelu/lyft-udacity-challenge </br>
+Data set has been simulated from Carla simulator. There are 1000 images with different envirinments like sunlight, rainy and overcast weather. </br>
 
 Data Pre-processing :</br>
 Label images are encoded images with 13 different classes as per Carla document. I was interested in only lane class, so lane class pixels are kept as zero and all other classes set to 1. </br>
